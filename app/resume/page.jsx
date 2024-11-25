@@ -2,7 +2,7 @@
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs, SiVite } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiMongodb, SiMysql, SiCplusplus } from "react-icons/si";
 
 //about data
 const about = {
@@ -26,12 +26,12 @@ const about = {
       fieldValue: "Sri Lankan",
     },
     {
-      fieldName: "Email",
-      fieldValue: "thisalchandupa@gmail.com",
-    },
-    {
       fieldName: "Freelance",
       fieldValue: "Available",
+    },
+    {
+      fieldName: "Email",
+      fieldValue: "thisalchandupa@gmail.com",
     },
     {
       fieldName: "Languages",
@@ -71,7 +71,7 @@ const education = {
     },
     {
       Institution: "Cardiff Metropolitan University",
-      Degree: "BSc (Honours) in Software Engineering (UG)",
+      Degree: "BSc Hons in Software Engineering (UG)",
       duration: "2024 - Present",
     },
   ],
@@ -83,12 +83,12 @@ const skills = {
   description: "blah blah",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiMysql />,
+      name: "Mysql",
     },
     {
-      icon: <FaCss3 />,
-      name: "Css 3",
+      icon: <SiCplusplus />,
+      name: "C++",
     },
     {
       icon: <FaJs />,
@@ -107,8 +107,8 @@ const skills = {
       name: "Nextjs",
     },
     {
-      icon: <SiVite />,
-      name: "Vite",
+      icon: <SiMongodb />,
+      name: "Mongodb",
     },
     {
       icon: <SiTailwindcss />,
