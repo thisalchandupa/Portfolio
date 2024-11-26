@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Web development",
-    description: "Lorem ipsum",
+    description: "MERN stack and Wordpress",
     href: "",
   },
   {
     num: "02",
     title: "Mobile App development",
-    description: "Lorem ipsum",
+    description: "React Native",
     href: "",
   },
   {
     num: "03",
     title: "Logo Design",
-    description: "Lorem ipsum",
+    description: "Canva",
     href: "",
   },
   {
     num: "04",
     title: "Graphic Design",
-    description: "Lorem ipsum",
+    description: "Canva",
     href: "",
   },
 ];

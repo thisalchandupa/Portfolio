@@ -7,7 +7,7 @@ import { SiTailwindcss, SiNextdotjs, SiMongodb, SiMysql, SiCplusplus } from "rea
 //about data
 const about = {
   title: "About me",
-  description: "blah blah",
+  description: "Contact details",
   info: [
     {
       fieldName: "Name",
@@ -44,7 +44,7 @@ const about = {
 const experience = {
   icon: "",
   title: "My experience",
-  description: "blah blah",
+  description: "MERN stack and Wordpress",
   items: [
     {
       company: "Pixel Clear",
@@ -62,7 +62,7 @@ const experience = {
 const education = {
   icon: "",
   title: "My education",
-  description: "blah blah",
+  description: "",
   items: [
     {
       Institution: "Cardiff Metropolitan University",
@@ -80,7 +80,7 @@ const education = {
 //skills data
 const skills = {
   title: "My skills",
-  description: "blah blah",
+  description: "",
   skillList: [
     {
       icon: <SiMysql />,
